@@ -54,6 +54,18 @@
         </section>
 
         <section>
+            <h2>Save Your Favorites</h2>
+            <p>
+                Select your favorite bakery items. Your choices will be saved
+                for your next visit.
+            </p>
+
+            <p id="favorites-message">
+                You have not saved any favorites yet.
+            </p>
+        </section>
+
+        <section>
             <h2>Bakery Favorites</h2>
 
             <div class="product-list">
@@ -69,6 +81,12 @@
                     <p>
                         <strong>Price range:</strong> $5–$9
                     </p>
+
+                    <button type="button"
+                            class="favorite-btn"
+                            data-product="Artisan Breads">
+                        Save Favorite
+                    </button>
                 </article>
 
                 <article>
@@ -82,6 +100,12 @@
                     <p>
                         <strong>Price range:</strong> $3–$6
                     </p>
+
+                    <button type="button"
+                            class="favorite-btn"
+                            data-product="Pastries">
+                        Save Favorite
+                    </button>
                 </article>
 
                 <article>
@@ -95,6 +119,12 @@
                     <p>
                         <strong>Price range:</strong> $4–$12
                     </p>
+
+                    <button type="button"
+                            class="favorite-btn"
+                            data-product="Seasonal Treats">
+                        Save Favorite
+                    </button>
                 </article>
 
             </div>
@@ -104,5 +134,7 @@
     <footer>
         <p>&copy; 2026 North Star Bakery. Handmade with care for our community.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
